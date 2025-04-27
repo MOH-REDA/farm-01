@@ -1,8 +1,7 @@
-//✠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ☢❦۞❦☢ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬✠//BY: POULAZ (Angry Black)
-//copyright © Angry Black 2020.//❦Angry Black❦
+
 
 const Discord = require("discord.js");
-const myid = ['Your ID'];//هنا بتحط الايدى بتاعك بتاع الديسكورد
+const myid = ['Your ID'];
 const client = new Discord.Client();
 const client2 = new Discord.Client();
 const client3 = new Discord.Client();
@@ -28,7 +27,7 @@ const client22 = new Discord.Client();
 const client23 = new Discord.Client();
 const client24 = new Discord.Client();
 
-//✠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ☢❦۞❦☢ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬✠//BY: POULAZ (Angry Black)
+
 
 client.login(process.env.TOKEN);
 client2.login(process.env.TOKEN2);
@@ -55,7 +54,7 @@ client22.login(process.env.TOKEN22);
 client23.login(process.env.TOKEN23);
 client24.login(process.env.TOKEN24);
 
-//✠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ☢❦۞❦☢ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬✠//BY: POULAZ (Angry Black)
+
 
 client.on('message', message => {
   if (message.content === '$d') {
@@ -82,7 +81,6 @@ message.channel.send('#daily')
 message.channel.send('#credits')
   }
   if(message.content.startsWith("$s")) {
-    //copyright © Angry Black 2020.//❦Angry Black❦
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
@@ -205,7 +203,6 @@ message.channel.send('#daily')
 message.channel.send('#credits')
   }
   if(message.content.startsWith("$s")) {
-    //copyright © Angry Black 2020.//❦Angry Black❦
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
@@ -383,7 +380,6 @@ message.channel.send('#credits')
   }
 });
 
-//✠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ☢❦۞❦☢ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬✠//BY: POULAZ (Angry Black)
 
 
 client.on('message', message => {
@@ -726,7 +722,6 @@ if (message.content === '$spam') {
       }
 });
 
-//✠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ☢❦۞❦☢ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬✠//BY: POULAZ (Angry Black)
 
 client.on("ready", () => {
   console.log('Bot created by ©Angry Black')
@@ -881,6 +876,3 @@ client24.on('message', message => {
         message.channel.send("#rep "+"<@" + myid + ">")
     }
 });
-
-//copyright © Angry Black 2020.//❦Angry Black❦
-//✠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ☢❦۞❦☢ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬✠//BY: POULAZ (Angry Black)
